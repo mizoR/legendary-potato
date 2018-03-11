@@ -2,21 +2,34 @@
   "manifest": {
     "publishingInformation": {
       "locales": {
-        "en-US": {
-          "summary": "Sample Short Description",
+        "ja-JP": {
+          "summary": "iPhoneを鳴らします。",
           "examplePhrases": [
-            "Alexa open hello world",
-            "Alexa tell hello world I am Jeff",
-            "Alexa tell hello world my name is Peter"
+            "アレクサ、iPhoneを鳴すを開いて",
+            "アレクサ、iPhoneを鳴らして",
+            "アレクサ、iPhoneを探して",
+            "アレクサ、iPhoneを探すを開いて",
+            "アレクサ、アイフォンを鳴すを開いて",
+            "アレクサ、アイフォンを鳴らして",
+            "アレクサ、アイフォンを探して",
+            "アレクサ、アイフォンを探すを開いて",
+            "アレクサ、スマホを鳴すを開いて",
+            "アレクサ、スマホを鳴らして",
+            "アレクサ、スマホを探して",
+            "アレクサ、スマホを探すを開いて",
+            "アレクサ、スマートフォンを鳴すを開いて",
+            "アレクサ、スマートフォンを鳴らして",
+            "アレクサ、スマートフォンを探して",
+            "アレクサ、スマートフォンを探すを開いて"
           ],
-          "name": "alexa-find-iphone",
-          "description": "Sample Full Description"
+          "name": "iPhoneを鳴らす",
+          "description": "iPhoneを鳴らします。"
         }
       },
-      "isAvailableWorldwide": true,
-      "testingInstructions": "Sample Testing Instructions.",
-      "category": "EDUCATION_AND_REFERENCE",
-      "distributionCountries": []
+      "isAvailableWorldwide": false,
+      "testingInstructions": "あなたのアイフォンを鳴らします。",
+      "category": "DEVICE_TRACKING",
+      "distributionCountries": ["JP"]
     },
     "apis": {
       "custom": {

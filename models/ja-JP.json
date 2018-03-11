@@ -1,0 +1,36 @@
+{
+  "interactionModel":{
+    "languageModel":{
+      "invocationName":"iPhoneを鳴らす",
+      "types":[],
+      "intents":[
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+
+        {
+          "name":"SoundIPhoneByName",
+          "slots":[
+            {
+              "name":"name",
+              "type":"FAMILY_NICKNAME"
+            }
+          ],
+          "samples":[
+            "{name} のアイフォン",
+            "{name} のアイフォンを鳴らして",
+            "{name} のアイフォンを探して",
+            "{name} のスマホ",
+            "{name} のスマホを鳴らして",
+            "{name} のスマホを探して",
+            "{name} のスマートフォン",
+            "{name} のスマートフォンを鳴らして",
+            "{name} のスマートフォンを探して",
+            "{name}"
+          ]
+        }
+      ]
+    }
+  }
+}
